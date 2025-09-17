@@ -11,7 +11,7 @@ api_token = os.getenv("HUGGINGFACE_API_TOKEN")
 
 # This is the API URL for a powerful, multilingual model (Llama 3 8B)
 # You can swap this with other models from the Hugging Face Hub
-API_URL = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
+API_URL = "https://api-inference.huggingface.co/models/google/gemma-7b-it"
 
 # Set up the headers for the API request
 headers = {"Authorization": f"Bearer {api_token}"}
